@@ -2163,11 +2163,6 @@ button,
       width: 100%; }
 
 /* In your main.css file */
-.university-logo-img {
-  max-width: 450px;
-  margin-left: -200px;
-  margin-top: -40px;
-}
 
 .university-logo-img {
   max-width: 100%;
