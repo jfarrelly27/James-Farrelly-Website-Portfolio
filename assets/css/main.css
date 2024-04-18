@@ -2162,21 +2162,32 @@ button,
       object-position: center;
       width: 100%; }
 
-/* In your main.css file */
-.university-logo-img {
-  max-width: 450px;
-  margin-left: -200px;
-  margin-top: -40px;
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .university-logo-img {
-      max-width: 250px;
-      margin-left: 0;
-      
-  }
-}
+      .university-logo-img {
+        max-width: 100%;
+        height: auto; /* maintain aspect ratio */
+        margin-left: auto; /* center align the image */
+        margin-right: auto; /* center align the image */
+    }
+    
+    @media screen and (max-width: 768px) {
+        .university-logo-img {
+            max-width: 50%; /* smaller size on mobile */
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .row.aln-center {
+            display: block; /* stack columns vertically on very small screens */
+        }
+        .col-4.col-12-medium {
+            width: 100%; /* full width for the image container */
+            order: -1; /* display the image above the text */
+        }
+        .col-8.col-12-medium {
+            width: 100%; /* full width for the text container */
+        }
+    }
+    
 
     
 
