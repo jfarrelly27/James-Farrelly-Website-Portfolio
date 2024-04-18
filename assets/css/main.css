@@ -2169,6 +2169,13 @@ button,
   margin-top: -40px;
 }
 
+.university-logo-img {
+  max-width: 100%;
+  height: auto; /* maintain aspect ratio */
+  margin-left: auto; /* center align the image */
+  margin-right: auto; /* center align the image */
+}
+
 @media screen and (max-width: 768px) {
   .university-logo-img {
       max-width: 50%; /* smaller size on mobile */
@@ -2187,6 +2194,7 @@ button,
       width: 100%; /* full width for the text container */
   }
 }
+
 
 
     
