@@ -2316,3 +2316,38 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+
+   /* Add this to your main.css */
+
+.image-container {
+  text-align: center; /* Center align the image */
+}
+
+.university-logo-img {
+  max-width: 85%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Aligns the image to the center of the container */
+  margin-top: -20px; /* Adjust the margin to position your image higher */
+}
+
+@media screen and (max-width: 768px) {
+  .university-logo-img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Stacking the columns on smaller screens */
+  .col-6.col-12-medium {
+    width: 100%;
+  }
+
+  .image-container {
+    order: -1; /* Image will go above the text */
+  }
+
+  .university-logo-img {
+    max-width: 100%;
+  }
+}
