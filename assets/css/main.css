@@ -1187,7 +1187,7 @@ input[type="radio"] + label:before {
     padding: 0; }
 
 /* Icon */
-.icon {
+.icons {
   text-decoration: none;
   border-bottom: none;
   position: relative; }
