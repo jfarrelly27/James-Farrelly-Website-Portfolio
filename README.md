@@ -53,7 +53,8 @@ I welcome contributions to improve the website. Please feel free to fork the rep
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+See the [LICENSE.md](LICENSE.md) file for details.
 
-Thank you for visiting my portfolio, and I hope you find the information and projects showcased enlightening and inspiring!
+## Acknowledgements
+Template from https://html5up.net/editorial 
 
